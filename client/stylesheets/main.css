@@ -1,0 +1,59 @@
+/* CSS declarations go here */
+.container-fluid {
+  background: whitesmoke;
+}
+a:hover {
+  text-decoration: none;
+}
+.grid {
+  padding-left: 10px;
+}
+.item {
+  width: 24%;
+  padding: 10px;
+}
+.item {
+  background: #fff;
+  border-radius: 6px;
+  text-align: center;
+  box-shadow: 0 1px 2px 0 rgba(0,0,0,0.22);
+  -webkit-box-shadow: 0 1px 2px 0 rgba(0,0,0,0.22);
+}
+.item img {
+  max-width: 260px;
+}
+.item p {
+  color: #333;
+}
+.item .author {
+  color: #979797;
+  font-size: 14px;
+}
+.item .avatar {
+  border-radius: 50%;
+  width: 40px;
+  margin-bottom: 5px;
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width:1120px) {
+  .item {
+    width: 47%;
+  }
+}
+@media only screen and (max-width:480px) {
+  .item {
+    width: 100%;
+  }
+  .grid {
+    padding-left: 0px;
+  }
+}
+@media only screen and (max-width:320px) {
+  .item {
+    width: 100%;
+  }
+  .grid {
+    padding-left: 0px;
+  }
+}
